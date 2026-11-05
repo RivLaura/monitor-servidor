@@ -390,7 +390,7 @@ Una posible solución es utilizar GraphQL, que permite solicitar específicament
 Por ejemplo, una aplicación podría consultar únicamente `cpu_temp_c`, evitando recibir el resto de las métricas.
 
 
-## 14. Autoría
+## 12. Autoría
 
 **María Laura Riveros**
 
