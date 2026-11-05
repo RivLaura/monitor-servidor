@@ -15,12 +15,6 @@ El proyecto utiliza una arquitectura basada en servicios para separar la lógica
 
 **Trabajo práctico:** Monitor de Servidor con Laravel
 
-**Materia:** Programación IV
-
-**Institución:** Universidad Tecnológica Nacional — Facultad Regional Resistencia, Sede Formosa.
-
-**Cohorte:** 2026
-
 ## 2. Tecnologías utilizadas
 
 | Tecnología | Función |
@@ -395,28 +389,6 @@ Una posible solución es utilizar GraphQL, que permite solicitar específicament
 
 Por ejemplo, una aplicación podría consultar únicamente `cpu_temp_c`, evitando recibir el resto de las métricas.
 
-## 12. Consideraciones de seguridad
-
-Este proyecto fue desarrollado con fines académicos y está orientado al monitoreo de un equipo Windows en un entorno local.
-
-Para utilizarlo en producción sería necesario:
-
-- Implementar autenticación y autorización.
-- Restringir el acceso a los datos internos del servidor.
-- Mantener los comandos de PowerShell libres de entradas arbitrarias de usuarios.
-- Aplicar límites de solicitudes.
-- Considerar mecanismos más eficientes de actualización, como WebSockets.
-
-## 13. Posibles mejoras futuras
-
-- Implementación de comunicación en tiempo real mediante Laravel Reverb y WebSockets.
-- Consultas GraphQL para seleccionar métricas específicas.
-- Historial de mediciones.
-- Gráficos de consumo de recursos.
-- Alertas cuando el uso de CPU, memoria o disco supere determinados valores.
-- Soporte para sistemas operativos Linux.
-
-Estas funcionalidades se plantean como posibles extensiones y no forman parte de los requisitos obligatorios de este trabajo práctico.
 
 ## 14. Autoría
 
@@ -425,8 +397,6 @@ Estas funcionalidades se plantean como posibles extensiones y no forman parte de
 Estudiante de Tecnicatura Universitaria en Programación.
 
 Universidad Tecnológica Nacional — Facultad Regional Resistencia, Sede Formosa.
-
-**Materia:** Programación IV
 
 **Año:** 2026
 
